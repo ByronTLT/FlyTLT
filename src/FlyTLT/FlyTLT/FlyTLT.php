@@ -6,13 +6,13 @@ use pocketmine\entity\Living
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\entity\{EntityDamageEvent, EntityDamageByEntityEvent};
 class FlyTLT extends PluginBase implements Listener{
-	public function onLoad:void{
+	public function onLoad():void{
 		$this->getLogger()->info("FlyTLT Loading");
 	}
-	public function onEnable:void{
+	public function onEnable():void{
 		$this->getLogger()->info("FlyTLT Enabled");
 	}
-	public function onDisable:void{
+	public function onDisable():void{
 		$this->getLogger()->info("FlyTLT Disabled");
 	}
 	public function onDamage(EntityDamageEvent $event):void{
