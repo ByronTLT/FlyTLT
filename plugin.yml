@@ -1,1 +1,11 @@
-
+name: FlyTLT
+main: FlyTLT\FlyTLT
+version: 1
+api: 3.0.0
+author: ByronTLT
+description: "FlyTLT Was A Simple Plugin To Make Which Manages /fly So Well!!!"
+commands:
+ fly:
+  default: op
+  permission: flytlt.fly
+  description: "Access To Use /fly"
