@@ -43,6 +43,5 @@ class FlyTLT extends PluginBase implements Listener{
              return true;
                 }
         	}
-        }
 	}
 }
