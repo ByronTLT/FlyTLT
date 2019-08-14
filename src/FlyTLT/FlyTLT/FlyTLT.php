@@ -18,7 +18,6 @@ class FlyTLT extends PluginBase implements Listener{
 	public function onDamage(EntityDamageEvent $event):void{
         $entity = $event->getEntity();
         if($entity instanceof Player){
-			self::reloadNameTag($entity);
             if(!$entity->isCreative() && $entity->getAllowFlight()){
                 $entity->setFlying(false);
                 $entity->setAllowFlight(false);
