@@ -6,6 +6,6 @@ author: ByronTLT
 description: "FlyTLT Was A Simple Plugin To Make Which Manages /fly So Well!!!"
 commands:
  fly:
-  default: op
+  default: false
   permission: flytlt.fly
   description: "Access To Use /fly"
