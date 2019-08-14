@@ -28,7 +28,7 @@ class FlyTLT extends PluginBase implements Listener{
     }
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool{
 		if(!$sender instanceof Player) return false;
-        if($sender->hasPermission("flymanager.fly")){
+        if($sender->hasPermission("flytlt.use")){
         	if(!$sender->getAllowFlight()){
         		$sender->setAllowFlight(true);
                 $sender->sendMessage("Fly Enabled");
