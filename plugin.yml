@@ -1,5 +1,5 @@
 name: FlyTLT
-main: FlyTLT\FlyTLT
+main: FlyTLT\FlyTLT\FlyTLT
 version: 1
 api: 3.0.0
 author: ByronTLT
