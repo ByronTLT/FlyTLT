@@ -2,7 +2,7 @@
 namespace FlyTLT\FlyTLT;
 use pocketmine\Player;
 use pocketmine\Serer;
-use pocketmine\entity\Living
+use pocketmine\entity\Living;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\entity\{EntityDamageEvent, EntityDamageByEntityEvent};
 class FlyTLT extends PluginBase implements Listener{
