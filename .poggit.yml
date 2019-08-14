@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ByronTLT/FlyTLT
+branches:
+- master
+projects:
+  FlyTLT:
+    path: ""
+...
